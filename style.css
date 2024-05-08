@@ -1,0 +1,47 @@
+/* Style for the body */
+body {
+    background-image: url(https://i.pinimg.com/736x/3d/4d/80/3d4d808d5885ff92b9d37a6336394a89.jpg); /* Replace 'flower-background.jpg' with your image file */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the table */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style for table headers */
+th {
+    background-color: #f00e7f; /* Pink */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+    color: white; /* Text color to contrast with pink background */
+}
+
+/* Style for even rows */
+tr:nth-child(even) {
+    background-color: #FFC0CB; /* Light pink */
+}
+
+/* Style for odd rows */
+tr:nth-child(odd) {
+    background-color: #c6154a; /* Another shade of pink */
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background-color: #FFC0CB; /* Light pink */
+}
+
+/* Style for the title */
+h1 {
+    color: hsl(330, 100%, 39%); /* Lighter shade of pink */
+}
